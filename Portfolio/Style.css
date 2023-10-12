@@ -1,0 +1,514 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #f0e9ff;
+}
+
+.navbar {
+    background-color: #13022e;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    color: rgb(202, 188, 226);
+    font-size: 2rem;
+    margin-left: 50px;
+    word-spacing: 10px;
+    font-family: arial;
+}
+
+.list {
+    margin-left: 450px;
+}
+
+.list ul {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.list ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(150, 141, 166);
+}
+.navbar ul li a:hover{
+    color:white;
+    } 
+
+.hero {
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 100%;
+    width: 60%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.box p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.photo-section {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    height: 250px;
+    width: 200px;
+    background-image: url("photo.png");
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    filter: brightness(80%);
+}
+.photo:hover{
+    opacity: 50%;
+}
+.education-section {
+    height: 380px;
+    background-color: rgb(182, 200, 177);
+    border: 2px solid rgb(182, 200, 177);
+    display: flex;
+}
+.edu-heading{
+    width: 500px;
+    text-align: center;
+    margin-left: 100px;
+}
+.edu-heading p{
+    font-size: 2rem;
+    font-family: arial;
+    margin-top: 150px;
+}
+.edu {
+    margin-left: 200px;
+    margin-top: 5px;
+    width: 30%;
+    text-align: center;
+    color: black;
+}
+
+.edu ul li {
+    list-style-type: circle;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.edu ul sub {
+    font-size: 1.3rem;
+}
+
+.skills-section {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-heading {
+    height: 70px;
+    width: 100%;
+    background-color:#54725a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.main-heading h {
+    text-decoration: 2px underline;
+    border-radius: 25%;
+    font-size: 2rem;
+    font-family: arial;
+}
+
+.skills {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-1 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(160, 192, 152);
+    text-align: center;
+    border-radius: 22%;
+}
+.box-1:hover{
+   border: 3px solid  rgb(160, 192, 152);
+   background-color:#f0e9ff;
+}
+.skill-logo {
+    height: 65px;
+    width: 65px;
+    margin: 25px 0 0 38%;
+}
+
+.java-logo {
+    height: 100%;
+    width: 100%;
+    background-image: url("Javam11.png");
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.springboot-logo {
+    height: 100%;
+    width: 100%;
+    background-image: url("Springboot.png");
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.springmvc-logo {
+    height: 100%;
+    width: 100%;
+    background-image: url("SpringMvc.png");
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.hibernate-logo {
+    height: 100%;
+    width: 100%;
+    background-image: url("hibernate.png");
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.postman-logo {
+    height: 100%;
+    width: 100%;
+    background-image: url("postman.png");
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.github-logo {
+    height: 100%;
+    width: 100%;
+    background-image: url("github.png");
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.jira-logo {
+    height: 100%;
+    width: 100%;
+    background-image: url("jira.png");
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.html-logo {
+    height: 100%;
+    width: 100%;
+    background-image: url("htmlcss11.jpg");
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.box-1-lines {
+    margin-top: 20px;
+}
+
+.box-1-lines h2 {
+    font-size: 1.5rem;
+}
+
+.box-1-lines p {
+    font-family: arial;
+    font-size: 1.1rem;
+    margin: 15px 15px 0 15px;
+}
+
+.image-section {
+    height: 400px;
+    width: 100%;
+}
+
+.image img {
+    height: 400px;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.image {
+    position: relative;
+}
+
+.image-text {
+    color: black;
+    position: absolute;
+    right: 33%;
+    top: 35%;
+    text-align: center;
+}
+
+.image-text h2 {
+    font-size: 3rem;
+}
+
+.image-text p {
+    font-size: 1rem;
+    line-height: 40px;
+}
+.image-section:hover .image-text{
+    color: white;
+}
+
+.project-section {
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.pro-heading {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #54725a;
+    border: 1px solid #54725a;
+    border-radius: 5%;
+}
+
+.pro-heading h2 {
+    margin-top: 15px;
+    line-height: 30px;
+    font-family: arial;
+}
+
+.pro-box-section {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.pro-box-1 {
+    height: 100%;
+    width: 600px;
+    background-image: url("Amazon.png");
+    background-size: cover;
+    border-radius: 1%;
+    position: relative;
+}
+
+.pro-box-2 {
+    height: 100%;
+    width: 600px;
+    background-image: url("SoftDev.png");
+    background-size: cover;
+    border-radius: 1%;
+    position: relative;
+}
+
+.opacity:hover {
+    opacity: 60%;
+}
+
+.pro-box-1:hover .text {
+    opacity: 100%;
+    background-color: #ffffff;
+}
+
+.pro-box-2:hover .text {
+    opacity: 100%;
+    background-color: #ffffff;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: 0;
+}
+
+.contact-section {
+    height: 500px;
+    width: 100%;
+}
+
+.con-heading {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #54725a;
+    border: 1px solid #54725a;
+    border-radius: 5%;
+    
+}
+
+.con-heading h2 {
+    margin-top: 25px;
+    font-family: arial;
+}
+
+.con-box-section {
+    height: 250px;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con-box {
+    height: 100%;
+    width: 20%;
+}
+
+.con-img1 {
+    height: 100px;
+    width: 100px;
+    margin: 20px 0 20px 100px;
+    font-size: 80px;
+    text-align: center;
+    opacity: 50%;
+}
+
+.con-box:hover .con-img1 {
+    opacity: 80%;
+}
+
+.con-box:hover .info a {
+    font-weight: 700;
+}
+
+.con-img2 {
+    height: 100px;
+    width: 100px;
+    margin: 20px 0 20px 100px;
+    font-size: 80px;
+    text-align: center;
+    opacity: 50%;
+}
+
+.con-box:hover .con-img2 {
+    opacity: 80%;
+}
+
+.con-img3 {
+    height: 100px;
+    width: 100px;
+    margin: 20px 0 20px 100px;
+    font-size: 80px;
+    text-align: center;
+    opacity: 50%;
+}
+
+.con-box:hover .con-img3 {
+    opacity: 80%;
+}
+
+.info {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.info p {
+    color: rgb(26, 28, 28);
+}
+
+.info a {
+    color: black;
+}
+
+.googleform-section {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: #54725a;
+    border: 1px solid #54725a;
+    border-radius: 5%;
+}
+
+.googleform-section p {
+    font-size: 2.5rem;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.googleform-section a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    line-height: 80px;
+}
+
+.googleform-section a:hover {
+    color: green;
+    background-color: wheat;
+}
+
+.googleform-section:hover {
+    background-color: #3a4d3e;
+}
+
+.right-section {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.right-section p {
+    margin-top: 15px;
+    opacity: 80%;
+}
+.list-footer ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.list-footer ul li a{
+text-decoration: none;
+margin-right: 20px;
+font-size: 1.2rem;
+color: black;
+font-weight: 700;
+border: 1px solid black;
+}
+.list-footer ul li a:hover{
+     background-color: black;
+     color: #D0BFFF;
+}
+html{
+    scroll-behavior:smooth;
+}
